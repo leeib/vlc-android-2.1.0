@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.videolan.vlc.gui.view.HackyDrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:nextFocusLeft="@+id/ml_menu_search"
+    android:nextFocusRight="@+id/ml_menu_search"
+    android:nextFocusUp="@+id/ml_menu_search"
+    android:nextFocusDown="@+id/ml_menu_search"
+    android:nextFocusForward="@+id/ml_menu_search"
+    android:fitsSystemWindows="true" >
+        <android.support.design.widget.CoordinatorLayout
+            android:id="@+id/coordinator"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <include layout="@layout/toolbar"/>
+
+            <FrameLayout
+                android:id="@+id/fragment_placeholder"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+            <FrameLayout
+                android:id="@+id/audio_player_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+                <fragment
+                    android:id="@+id/audio_player"
+                    android:name="org.videolan.vlc.gui.audio.AudioPlayer"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/info_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="bottom"
+                android:visibility="gone" >
+
+                <ProgressBar
+                    android:id="@+id/info_progress"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:progressDrawable="@drawable/progress"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/info_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginRight="5dip"
+                    android:shadowColor="#CC000000"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:shadowRadius="1.5"
+                    android:singleLine="true"
+                    android:textColor="#FFFFFFFF" />
+            </FrameLayout>
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_fab_add"
+                android:tint="@color/grey50"
+                app:borderWidth="0dp"
+                app:rippleColor="@color/orange50"
+                app:layout_anchor="@+id/fragment_placeholder"
+                app:layout_anchorGravity="bottom|end"
+                app:layout_behavior="org.videolan.vlc.gui.helpers.FloatingActionButtonBehavior"
+                android:visibility="invisible"
+                android:layout_margin="16dp"/>
+        </android.support.design.widget.CoordinatorLayout>
+
+    <!-- The navigation drawer -->
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigation"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/navigation"
+        app:itemTextColor="?attr/navigationview_item_color"
+        app:itemIconTint="?attr/navigationview_item_color" />
+
+</org.videolan.vlc.gui.view.HackyDrawerLayout>

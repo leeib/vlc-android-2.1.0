@@ -1,0 +1,2 @@
+src/logging/libmedialibrary_la-IostreamLogger.lo: \
+  ../src/logging/IostreamLogger.cpp

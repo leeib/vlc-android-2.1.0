@@ -1,0 +1,237 @@
+src/filesystem/common/libmedialibrary_la-CommonDevice.lo: \
+  ../src/filesystem/common/CommonDevice.cpp config.h ../include/Fixup.h \
+  ../src/filesystem/common/CommonDevice.h \
+  ../include/filesystem/IDevice.h \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/string \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/__config \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/iosfwd \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/wchar.h \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/local/include/wchar.h \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib64/clang/3.8.256229/include/stdarg.h \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/stdio.h \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/local/include/stdio.h \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/stdio.h \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/sys/cdefs.h \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/sys/cdefs_elf.h \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/android/api-level.h \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/sys/types.h \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/stddef.h \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib64/clang/3.8.256229/include/stddef.h \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/local/include/stdint.h \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib64/clang/3.8.256229/include/stdint.h \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/stdint.h \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib64/clang/3.8.256229/include/__stddef_max_align_t.h \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/__nullptr \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/sys/_types.h \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/machine/_types.h \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/sys/_wchar_limits.h \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib64/clang/3.8.256229/include/limits.h \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/limits.h \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/sys/limits.h \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/linux/limits.h \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/machine/internal_types.h \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/machine/limits.h \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/sys/syslimits.h \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/asm/page.h \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/linux/posix_types.h \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/linux/stddef.h \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/linux/compiler.h \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/asm/posix_types.h \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/asm/types.h \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/linux/types.h \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/machine/kernel.h \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/sys/sysmacros.h \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/local/include/xlocale.h \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/wctype.h \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/local/include/wctype.h \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/cstring \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/string.h \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/local/include/string.h \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/string.h \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/malloc.h \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/cstdio \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/cwchar \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/cwctype \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/cctype \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/ctype.h \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/local/include/ctype.h \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/ctype.h \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/algorithm \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/initializer_list \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/cstddef \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/type_traits \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/utility \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/__tuple \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/memory \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/typeinfo \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/exception \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/cstdint \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/new \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/__undef___deallocate \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/limits \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/__undef_min_max \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/iterator \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/__functional_base \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/__debug \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/tuple \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/stdexcept \
+  /home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/atomic \
+  ../src/utils/Filename.h
+
+config.h:
+
+../include/Fixup.h:
+
+../src/filesystem/common/CommonDevice.h:
+
+../include/filesystem/IDevice.h:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/string:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/__config:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/iosfwd:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/wchar.h:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/local/include/wchar.h:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib64/clang/3.8.256229/include/stdarg.h:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/stdio.h:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/local/include/stdio.h:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/stdio.h:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/sys/cdefs.h:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/sys/cdefs_elf.h:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/android/api-level.h:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/sys/types.h:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/stddef.h:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib64/clang/3.8.256229/include/stddef.h:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/local/include/stdint.h:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib64/clang/3.8.256229/include/stdint.h:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/stdint.h:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib64/clang/3.8.256229/include/__stddef_max_align_t.h:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/__nullptr:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/sys/_types.h:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/machine/_types.h:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/sys/_wchar_limits.h:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib64/clang/3.8.256229/include/limits.h:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/limits.h:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/sys/limits.h:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/linux/limits.h:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/machine/internal_types.h:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/machine/limits.h:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/sys/syslimits.h:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/asm/page.h:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/linux/posix_types.h:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/linux/stddef.h:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/linux/compiler.h:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/asm/posix_types.h:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/asm/types.h:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/linux/types.h:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/machine/kernel.h:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/sys/sysmacros.h:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/local/include/xlocale.h:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/wctype.h:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/local/include/wctype.h:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/cstring:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/string.h:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/local/include/string.h:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/string.h:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/malloc.h:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/cstdio:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/cwchar:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/cwctype:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/cctype:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/ctype.h:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/local/include/ctype.h:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../sysroot/usr/include/ctype.h:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/algorithm:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/initializer_list:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/cstddef:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/type_traits:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/utility:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/__tuple:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/memory:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/typeinfo:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/exception:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/cstdint:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/new:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/__undef___deallocate:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/limits:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/__undef_min_max:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/iterator:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/__functional_base:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/__debug:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/tuple:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/stdexcept:
+
+/home/leeib/AndroidStudioProjects1/vlc-android/toolchains/arm/bin/../lib/gcc/arm-linux-androideabi/4.9.x/../../../../include/c++/4.9.x/atomic:
+
+../src/utils/Filename.h:
